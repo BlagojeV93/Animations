@@ -115,11 +115,12 @@ import LayoutAnimation from './src/Reanimated/LayoutAnimation';
 import GestureHandler from './src/Reanimated/GestureHandler';
 import BottomSheet from './src/Reanimated/BottomSheet';
 import Animated3DCard from './src/Reanimated/Animated3DCard';
+import AnimatedFlatlist from './src/Reanimated/AnimatedFlatlist';
 
 const App = () => {
   return (
     <View style={styles.mainContainer}>
-      <Animated3DCard />
+      <AnimatedFlatlist />
     </View>
   );
 };
